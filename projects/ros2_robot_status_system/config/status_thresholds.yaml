@@ -1,0 +1,5 @@
+status_monitor:
+  ros__parameters:
+    min_battery_percent: 20.0
+    max_temperature_c: 42.0
+
