@@ -1,5 +1,7 @@
 # 第 5-6 周：嵌入式接口、TF、URDF、RViz2
 
+阅读顺序：先看本文件安排每天任务；先做 [projects/ros2_serial_imu_driver/README.md](../projects/ros2_serial_imu_driver/README.md)，再做 [projects/ros2_mobile_robot_description/README.md](../projects/ros2_mobile_robot_description/README.md)。
+
 ## 学习任务
 
 - [ ] 理解上位机和下位机分工
@@ -23,4 +25,3 @@
 - RViz2 中小车模型显示正常
 - Fixed Frame 设置为 `base_link` 或 `odom`
 - TF 树没有断裂
-

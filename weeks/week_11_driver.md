@@ -1,5 +1,7 @@
 # 第 11 周：驱动、通信、多线程
 
+阅读顺序：先看本文件安排学习重点；当任务提到 TCP 驱动项目时，再打开 [projects/ros2_fake_sensor_driver/README.md](../projects/ros2_fake_sensor_driver/README.md) 看项目步骤和代码解释。
+
 ## 学习任务
 
 - [ ] 复盘串口驱动：读取、切包、解析、校验、发布
@@ -31,4 +33,3 @@ timestamp_ms,temperature,battery,velocity
 - driver 能丢弃非法数据
 - 断连后程序不崩溃
 - 能说明真实硬件驱动和模拟驱动的差异
-
