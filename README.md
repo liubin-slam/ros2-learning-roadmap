@@ -8,25 +8,46 @@
 - Python 3
 - CMake、colcon、Git、RViz2、rqt
 
-## 使用方式
+## 先看哪个文件
 
-1. 先读 [START_HERE.md](./START_HERE.md)。
-2. Git 零基础先读 [GIT_BEGINNER.md](./GIT_BEGINNER.md)。
-3. 再读 [12_week_plan.md](./12_week_plan.md)。
-4. 每周按 `weeks/` 里的清单推进。
-5. 每完成一个项目，在项目 README 中补充运行截图、问题记录和改进点。
-6. 每周至少提交 5 次 Git commit。
+只按这个顺序看，不要在目录里乱点：
+
+1. [START_HERE.md](./START_HERE.md)：第一天从哪里开始。
+2. [HOW_TO_USE_THIS_REPO.md](./HOW_TO_USE_THIS_REPO.md)：解释 `weeks/` 和 `projects/` 分别什么时候看。
+3. [GIT_BEGINNER.md](./GIT_BEGINNER.md)：Git 零基础流程。
+4. [LEARNING_RESOURCES.md](./LEARNING_RESOURCES.md)：每个阶段去哪里学。
+5. [12_week_plan.md](./12_week_plan.md)：12 周总览。
+6. `weeks/week_xx.md`：每天真正照着执行的任务单。
+7. `projects/xxx/README.md`：当 week 文件要求你做某个项目时，再打开对应项目教程。
+
+## 最重要的规则
+
+`weeks/` 是学习路线和每天任务，回答“今天该做什么”。  
+`projects/` 是项目教程和代码解释，回答“这个项目怎么一步一步做”。  
+
+所以每天的正确流程是：
+
+```text
+先看对应 week 文件
+  -> week 让你做哪个项目
+  -> 再打开对应 projects/项目名/README.md
+  -> 按项目 README 写代码、运行、截图
+  -> 回到 week 文件打勾
+  -> Git commit
+```
 
 ## 项目目录
 
-| 阶段 | 项目 | 目标 |
+| 阶段 | 先看 week | 再看 project |
 | --- | --- | --- |
-| 第 1-2 周 | [cpp_sensor_logger](./projects/cpp_sensor_logger) | C++、CMake、日志、基础工程能力 |
-| 第 3-4 周 | [ros2_robot_status_system](./projects/ros2_robot_status_system) | ROS2 Topic、Service、Parameter、Launch |
-| 第 5-6 周 | [ros2_serial_imu_driver](./projects/ros2_serial_imu_driver) | 嵌入式接口、串口、IMU 驱动节点 |
-| 第 5-6 周 | [ros2_mobile_robot_description](./projects/ros2_mobile_robot_description) | URDF、TF、RViz2 机器人模型 |
-| 第 9-10 周 | [ros2_camera_opencv_detector](./projects/ros2_camera_opencv_detector) | ROS2 图像话题、OpenCV、cv_bridge |
-| 第 11 周 | [ros2_fake_sensor_driver](./projects/ros2_fake_sensor_driver) | TCP 传感器模拟、驱动节点、多线程思路 |
+| 第 0 周 | [week_00_environment.md](./weeks/week_00_environment.md) | 暂无项目，先装环境 |
+| 第 1-2 周 | [week_01_02_cpp_cmake.md](./weeks/week_01_02_cpp_cmake.md) | [cpp_sensor_logger](./projects/cpp_sensor_logger) |
+| 第 3-4 周 | [week_03_04_ros2_communication.md](./weeks/week_03_04_ros2_communication.md) | [ros2_robot_status_system](./projects/ros2_robot_status_system) |
+| 第 5-6 周 | [week_05_06_urdf_tf.md](./weeks/week_05_06_urdf_tf.md) | [ros2_serial_imu_driver](./projects/ros2_serial_imu_driver)、[ros2_mobile_robot_description](./projects/ros2_mobile_robot_description) |
+| 第 7-8 周 | [week_07_08_nav_sim.md](./weeks/week_07_08_nav_sim.md) | 先扩展前面的模型项目 |
+| 第 9-10 周 | [week_09_10_vision_pointcloud.md](./weeks/week_09_10_vision_pointcloud.md) | [ros2_camera_opencv_detector](./projects/ros2_camera_opencv_detector) |
+| 第 11 周 | [week_11_driver.md](./weeks/week_11_driver.md) | [ros2_fake_sensor_driver](./projects/ros2_fake_sensor_driver) |
+| 第 12 周 | [week_12_portfolio.md](./weeks/week_12_portfolio.md) | 整理所有项目 README 和简历材料 |
 
 ## 最终验收
 
