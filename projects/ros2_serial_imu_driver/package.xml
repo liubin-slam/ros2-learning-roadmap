@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>serial_imu_driver</name>
+  <version>0.1.0</version>
+  <description>ROS2 serial IMU driver example.</description>
+  <maintainer email="student@example.com">ros2 learner</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

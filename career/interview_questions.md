@@ -18,6 +18,16 @@
 4. LaserScan、Image、PointCloud2 的区别是什么？
 5. SLAM、定位、路径规划、控制分别解决什么问题？
 
+## 嵌入式接口和传感器驱动
+
+1. 上位机和下位机分别负责什么？
+2. UART、USB、CAN、I2C、SPI 分别适合什么场景？
+3. Linux 下 `/dev/ttyUSB0` 和 `/dev/video0` 分别通常代表什么？
+4. 如何排查串口设备没有权限？
+5. udev 规则解决什么问题？
+6. 一个 IMU driver 节点通常要做哪些事？
+7. 传感器 SDK 接入 ROS2 的基本流程是什么？
+
 ## C++/工程
 
 1. CMake 和 colcon 分别负责什么？

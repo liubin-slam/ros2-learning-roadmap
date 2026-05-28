@@ -23,6 +23,7 @@
 | --- | --- | --- |
 | 第 1-2 周 | [cpp_sensor_logger](./projects/cpp_sensor_logger) | C++、CMake、日志、基础工程能力 |
 | 第 3-4 周 | [ros2_robot_status_system](./projects/ros2_robot_status_system) | ROS2 Topic、Service、Parameter、Launch |
+| 第 5-6 周 | [ros2_serial_imu_driver](./projects/ros2_serial_imu_driver) | 嵌入式接口、串口、IMU 驱动节点 |
 | 第 5-6 周 | [ros2_mobile_robot_description](./projects/ros2_mobile_robot_description) | URDF、TF、RViz2 机器人模型 |
 | 第 9-10 周 | [ros2_camera_opencv_detector](./projects/ros2_camera_opencv_detector) | ROS2 图像话题、OpenCV、cv_bridge |
 | 第 11 周 | [ros2_fake_sensor_driver](./projects/ros2_fake_sensor_driver) | TCP 传感器模拟、驱动节点、多线程思路 |
@@ -34,5 +35,8 @@
 - 能独立创建 ROS2 workspace 和 package
 - 能写 C++/Python ROS2 节点
 - 能解释 Topic、Service、Action、Parameter、Launch、TF、URDF、rosbag
+- 能解释 UART、USB、CAN、I2C、SPI 的基本用途
+- 能在 Linux 下排查 `/dev/ttyUSB0`、`/dev/video0`、USB 权限和 udev 固定设备名
 - 能在 RViz2 中查看模型、坐标系、图像或点云
 - 能把 3 个项目写进简历，并在面试中讲清数据流和工程取舍
+
